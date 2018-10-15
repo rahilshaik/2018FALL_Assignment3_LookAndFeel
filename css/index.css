@@ -1,6 +1,10 @@
 body {
     background-image: url("../images/universe.jpg");
     font-family: 'Hind', sans-serif;
+    background-position: center;
+    background-size: cover;       
+    background-repeat: no-repeat;   
+    background-attachment: fixed;
 }
 
 .flex-container {
