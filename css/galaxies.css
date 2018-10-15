@@ -169,7 +169,12 @@ body {
 
 .galaxiesImageAlign {
     width: 100%;
-    height: -webkit-fill-available;
+    height: 55%;
+}
+
+.ellipticalgalaxiesImageAlign {
+    width: 100%;
+    height: 100%;
 }
 
 .displayFlex {
