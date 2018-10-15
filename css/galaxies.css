@@ -165,16 +165,17 @@ body {
     display: flex;
     margin-left: 3%;
     margin-right: 3%;
+    height: 100%;
 }
 
 .galaxiesImageAlign {
     width: 100%;
-    height: 55%;
+    height: -webkit-fill-available;
 }
 
 .ellipticalgalaxiesImageAlign {
     width: 100%;
-    height: 100%;
+    height: -webkit-fill-available;
 }
 
 .displayFlex {
