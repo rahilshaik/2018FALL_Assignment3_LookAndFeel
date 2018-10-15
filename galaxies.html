@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- set the head -->
+  <title>Galaxies</title>
+  <link rel="stylesheet" type="text/css" href="css/galaxies.css" />
+  <script type="text/javascript" src="js/galaxies.js"></script>
+</head>
+
+<body>
+  <!-- set the body -->
+  <div class="mainbox">
+    <div class="main">
+      <div>
+        <p class="title">Galaxy</p>
+      </div>
+
+      <div class="topnav">
+        <a href="index.html">Home</a>
+        <a href="#" class="active">Galaxies</a>
+      </div>
+    </div>
+    <div class="subbox">
+      <p>A galaxy is a huge collection of gas, dust, and billions of stars and their solar systems.
+        A galaxy is held together by gravity.
+        Our galaxy, the Milky Way, also has a supermassive black hole in the middle.
+        <br /><br />
+        There are many galaxies besides ours, though.
+        There are so many, we can’t even count them all yet!
+        The Hubble Space Telescope looked at a small patch of space for 12 days and found 10,000 galaxies, of all
+        sizes, shapes, and colors.
+        Some scientists think there could be as many as one hundred billion galaxies in the universe.
+        <br /><br />
+        Some galaxies are spiral-shaped like ours. They have curved arms that make it look like a pinwheel.
+        Other galaxies are smooth and oval shaped. They’re called elliptical galaxies.
+        And there are also galaxies that aren’t spirals or ovals.
+        They have irregular shapes and look like blobs.
+        The light that we see from each of these galaxies comes from the stars inside it.
+      </p>
+    </div>
+  </div>
+  <div class="secondbox">
+    <div class="tab">
+      <button class="tablinks" onmouseover="changeTab(event, 'galaxy1')">Spiral Galaxy</button>
+      <button class="tablinks" onmouseover="changeTab(event, 'galaxy2')">Elliptical Galaxy</button>
+      <button class="tablinks" onmouseover="changeTab(event, 'galaxy3')">Irregular Galaxy</button>
+    </div>
+
+    <div id="galaxy1" class="tabcontent">
+      <div class="displayFlex">
+
+        <div><img src="images/galaxies/spiralgalaxy.jpg" class="galaxiesImageAlign" alt="Avatar"></div>
+        <div class="textAlign">
+          <h3>Spiral Galaxy</h3>
+          <p>Spiral galaxies have two distinct regions.
+            The disk of the galaxy contains the spiral arms.
+            The disk is a region of star formation and has a great deal of gas and dust.
+            It is dominated by young, blue Population I stars which includes sun and tend to be luminous, hot and
+            young, concentrated in the disks of spiral galaxies.
+            The central bulge is devoid of gas and dust.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div id="galaxy2" class="tabcontent">
+      <div class="displayFlex">
+
+        <div><img src="images/galaxies/ellipticalgalaxy.jpg" class="galaxiesImageAlign" alt="Avatar"></div>
+        <div class="textAlign">
+          <h3>Elliptical Galaxy</h3>
+          <p>Elliptical galaxies have very little gas and dust. Because gas and dust are found in the
+            clouds that are the birthplaces of stars, we should expect to see very few young stars in
+            elliptical galaxies. In fact, elliptical galaxies contain
+            primarily old, red stars (also known as Population II stars).Elliptical galaxies vary widely
+            in size. Both the largest and the smallest known galaxies are elliptical.
+            ery large elliptical galaxies can reach 300 million light years in diameter.</p>
+        </div>
+      </div>
+    </div>
+
+    <div id="galaxy3" class="tabcontent">
+      <div class="displayFlex">
+
+        <div><img src="images/galaxies/irregularGalaxy.jpg" class="galaxiesImageAlign" alt="Avatar"></div>
+        <div class="textAlign">
+          <h3>Irregular Galaxy</h3>
+          <p>Galaxies that do not fit into either the spiral or elliptical classes are called irregular galaxies.
+            Irregular galaxies have a wide variety of shapes and characteristics.
+            They are frequently the result of collisions between galaxies or gravitational interactions
+            between galaxies.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="clearfix"></div>
+</body>
+
+</html>
