@@ -1,0 +1,72 @@
+body {
+    background-image: url("../images/readmore.jpg");
+    font-family: 'Hind', sans-serif;
+}
+
+.subtitle {
+    color: #fff;
+    text-align: center;
+    font-size: 34px;
+    margin: 39px;
+    text-transform: uppercase;
+}
+
+.flex-container {
+    display: flex;
+    align-items: stretch;
+    margin-right: 15%;
+    margin-left: 15%;
+    background-color: #000000c7;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    flex-wrap: wrap;
+    color: #fff;
+    padding: 63px;
+}
+
+.flex-container>div {
+    /* background-color: DodgerBlue; */
+    color: white;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+}
+
+.pictitle {
+    margin: 0px !important;
+    background: black !important;
+    color: #fff !important;
+    font-size: 21px !important;
+    font-weight: 600 !important;
+    position: relative;
+    bottom: 29px;
+}
+
+a {
+    color: #fff !important;
+    text-decoration: none;
+}
+
+.sub {
+    text-align: justify;
+}
+.back {
+    float: right;
+    margin: 0px;
+    font-size: 16px;
+    position: fixed;
+    right: 25px;
+    top: 25px;
+    font-weight: 800
+}
+
+.link {
+    color: #aa71d0;
+    text-decoration: underline;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 1.2;
+    letter-spacing: 0px
+}
