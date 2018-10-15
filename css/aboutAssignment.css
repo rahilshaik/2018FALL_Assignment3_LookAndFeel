@@ -1,17 +1,9 @@
 body {
-    background-image: url("../images/readmore.jpg");
+    background-image: url("../images/aboutAssignment.jpg");
     font-family: 'Hind', sans-serif;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;    
-}
-
-.subtitle {
-    color: #fff;
-    text-align: center;
-    font-size: 34px;
-    margin: 39px;
-    text-transform: uppercase;
 }
 
 .flex-container {
@@ -27,6 +19,10 @@ body {
     color: #fff;
     padding: 63px;
 }
+h3.sub {
+    width: 93%;
+    text-align: justify;
+}
 
 .flex-container>div {
     color: white;
@@ -36,22 +32,8 @@ body {
     font-size: 30px;
 }
 
-.pictitle {
-    margin: 0px !important;
-    background: black !important;
-    color: #fff !important;
-    font-size: 21px !important;
-    font-weight: 600 !important;
-    position: relative;
-    bottom: 29px;
-}
-
-a {
-    color: #fff !important;
-    text-decoration: none;
-}
-
 .sub {
+    width: 90%;
     text-align: justify;
 }
 .back {
@@ -61,15 +43,6 @@ a {
     position: fixed;
     right: 25px;
     top: 25px;
+    color: white;
     font-weight: 800
-}
-
-.link {
-    color: #aa71d0;
-    text-decoration: underline;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 18px;
-    line-height: 1.2;
-    letter-spacing: 0px
 }
